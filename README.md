@@ -46,4 +46,3 @@ Disk-based caching for persistence across sessions.
 
 Implementing a configurable cache size limit.
 
-📄 License This project is licensed under the MIT License – feel free to use, modify, and distribute.
