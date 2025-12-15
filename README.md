@@ -26,7 +26,7 @@ Synchronization: Semaphores
 
 Caching Mechanism: Custom LRU cache (Linked List + Hash Map)
 
-📂 Project Structure graphql Copy Edit 📦 Proxy_Server ┣ 📜 prox.cpp # Main proxy server code ┣ 📜 proxy_parse.h # HTTP request parsing helpers ┣ 📜 cache.h # LRU cache implementation ┣ 📜 Makefile # Build instructions ┗ 📜 README.md # Project documentation ⚙️ Installation & Usage 1️⃣ Clone the repository bash Copy Edit git clone      cd Proxy_Server 2️⃣ Compile the project bash Copy Edit g++ prox.cpp -o proxy_server -lpthread 3️⃣ Run the proxy server bash Copy Edit ./proxy_server Example:
+📂 Project Structure graphql Copy Edit 📦 Proxy_Server ┣ 📜 prox.cpp # Main proxy server code ┣ 📜 proxy_parse.h # HTTP request parsing helpers ┣ 📜 cache.h # LRU cache implementation ┣ 📜 Makefile # Build instructions ┗ 📜 README.md # Project documentation ⚙️ Installation & Usage 1️⃣ Clone the repository bash Copy Edit git clone  https://github.com/Piyush12Gm/Multithreaded-HTTP-Proxy-Server-with-Caching-/tree/main  cd Proxy_Server 2️⃣ Compile the project bash Copy Edit g++ prox.cpp -o proxy_server -lpthread 3️⃣ Run the proxy server bash Copy Edit ./proxy_server Example:
 
 bash Copy Edit ./proxy_server 8080 4️⃣ Configure your browser/system to use the proxy Set HTTP Proxy to:
 
